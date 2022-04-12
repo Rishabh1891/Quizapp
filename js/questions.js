@@ -1,4 +1,4 @@
-// creating an array and passing the number, questions, options, and answers
+var opt = document.querySelector(".option_list");
 let questions = [
     {
     numb: 1,
@@ -35,13 +35,13 @@ let questions = [
   },
     {
     numb: 4,
-    question: "Where is the Statue of Unity Situated?",
-    answer: "Vadodra",
+    question: "What is the Full Form Of NATO?",
+    answer: "North Atlantic Treaty Organization",
     options: [
-      "Gujrat",
-      "Vadodra",
-      "Pune",
-      "Rajasthan"
+      "Northen America Trust Officials",
+      "Not Act of Trust Office",
+      "North Atlantic Treaty Organization",
+      "Nation Acquire Trust Organization"
     ]
   },
     {
@@ -71,13 +71,13 @@ let questions = [
   },
     {
     numb: 7,
-    question: "Which Division of the Indian AirForce SF is dangerous?",
-    answer: "Garuda",
+    question: "How many Elements are there in periodic Table?",
+    answer: "118",
     options: [
-      "Cheel",
-      "Garuda",
-      "Baaj",
-      "Giddha"
+      "116",
+      "117",
+      "118",
+      "120"
     ]
   },
     {
@@ -110,7 +110,7 @@ let questions = [
       "Chhatrpati Shivaji Maharaj",
       "Maharaj Ram Krishan Paramohana",
       "Balkrishna Subrmanyam Ayeppa",
-      "Singh Verma IV"
+      "Singh Verman IV"
     ]
   },
 ];
