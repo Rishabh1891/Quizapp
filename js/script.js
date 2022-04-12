@@ -418,21 +418,21 @@ myFunction=(e)=>{
 }
 
 
-// document.addEventListener("visibilitychange", function() {
-//       if (document.visibilityState === 'visible') {
-//           document.write("This Programme Doesn't Exists, Turning of The Window...")
-//           setTimeout(() => {
-//               location.replace("https://www.google.co.in/");
-//             }, 2500);
-//           } else{
-//             document.title = "Page Doesn't exists!!";
-//             const audio = document.getElementById("audio");
-//             function play() {
-//               audio.muted = true;
-//               audio.play();
-//               audio.muted = false;
-//               audio.play();
-//             }
-//             play();
-//           }
-//   });
+document.addEventListener("visibilitychange", function() {
+      if (document.visibilityState === 'visible') {
+          document.write("This Programme Doesn't Exists, Turning of The Window...")
+          setTimeout(() => {
+              location.replace("https://www.google.co.in/");
+            }, 2500);
+          } else{
+            document.title = "Page Doesn't exists!!";
+            const audio = document.getElementById("audio");
+            function play() {
+              audio.muted = true;
+              audio.play();
+              audio.muted = false;
+              audio.play();
+            }
+            play();
+          }
+  });
