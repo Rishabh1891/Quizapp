@@ -134,7 +134,11 @@ restart_quiz.onclick = ()=>{
 
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
-    window.location.reload(); 
+  const conf = window.confirm("Thankyou For Participating.");
+  if(conf == true){
+    window.location.replace("https://www.google.co.in/")}
+    else{return false;};
+    
 }
 
 const next_btn = document.querySelector("footer .next_btn");
@@ -219,15 +223,15 @@ function showResult(){
     result_box.classList.add("activeResult");
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 5){ // if user scored more than 3
-        let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> please take screenshot of this page and congrats! 🎉,<p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  
     }
     else if(userScore > 3){ // if user scored more than 1
-        let scoreTag = '<span>and its okay 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> please take screenshot of this page and its okay 😎,<p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>and Poor Stupid you 😐, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and Poor Stupid you 😐,<p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }

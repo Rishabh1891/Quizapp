@@ -2,13 +2,13 @@ var opt = document.querySelector(".option_list");
 let questions = [
     {
     numb: 1,
-    question: "Is Being HR manager Fun?",
-    answer: "Moderate",
+    question: "Who is the Father of Computer?",
+    answer: "Dr. Charles Babbage",
     options: [
-      "Yes",
-      "No",
-      "Moderate",
-      "None of Above"
+      "Dr. Henry Williams",
+      "Dr. Charles Babbage",
+      "Dr. Sminton Hegons",
+      "Dr. Martin D. Mello"
     ]
   },
     {
@@ -46,13 +46,13 @@ let questions = [
   },
     {
     numb: 5,
-    question: "Which one doesn't belongs to the Swords of Raja Shivaji Maharaj?",
-    answer: "Veerochya",
+    question: "Full Form of PSLV is:",
+    answer: "Polar Satellite Launch Vehicle",
     options: [
-      "Tulja",
-      "Bhavani",
-      "Jagdamb",
-      "Veerochya"
+      "Particular Space Lattitude Vehicle",
+      "Pressured Satellite Lengthy Vehicle",
+      "Polar Satellite Launch Vehicle",
+      "Pickup Space & Land Vector"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
@@ -93,24 +93,24 @@ let questions = [
   },
     {
     numb: 9,
-    question: "The Victory Chant of the Army of Chhatrpati Shivaji Maharaj was:",
-    answer: "Jai Bhavani",
+    question: "Which Song has proclaimed as Suicidal song?",
+    answer: "Gloomy Sunday",
     options: [
-      "Jai Bholenath",
-      "Jai Bhavani",
-      "Jai Bajrang Bali",
-      "Ganpati Bappa Mourya"
+      "Gloomy Sunday",
+      "Memories",
+      "Bring me Home",
+      "Give me some sunshine"
     ]
   },
     {
     numb: 10,
-    question: "Who is Known as the Father of Indian Navy?",
-    answer: "Chhatrpati Shivaji Maharaj",
+    question: "Which one of the followings doesn't belong to Indian Air Force Fighter jet:",
+    answer: "Boeing-AH 64",
     options: [
-      "Chhatrpati Shivaji Maharaj",
-      "Maharaj Ram Krishan Paramohana",
-      "Balkrishna Subrmanyam Ayeppa",
-      "Singh Verman IV"
+      "Mig-21",
+      "Boeing-AH 64",
+      "Mirage-2000",
+      "Haltejas MK2"
     ]
   },
 ];
