@@ -23,11 +23,15 @@ async function getStudents() {
 getStudents();
 openPara=()=>{
   const tstbt = document.getElementById("testentr");
-  tstbt.disabled = false;
-  document.querySelector(".start_btn").classList.add("animate");
-let rol = document.getElementById("rol").value;
-let img = document.getElementById("perimg");
-
+  let rol = document.getElementById("rol").value;
+  let img = document.getElementById("perimg");
+  if (rol.length === 8) {
+    tstbt.disabled = false;  
+    tstbt.style.border = "2px solid green";
+    document.querySelector(".start_btn").classList.add("animate");
+} else {
+  tstbt.style.border = "2px solid red";
+}
   switch (rol) {
     case "12345678":
    document.getElementById("pernam").innerHTML = "Rishabh Tripathi";
@@ -344,7 +348,7 @@ function onTimesUp() {
   play();
   clearInterval(timerInterval);
   setTimeout(() => {
-    location.replace("https://www.google.co.in/");
+    // location.replace("https://www.google.co.in/");
   }, 6200);
  
 }
@@ -422,21 +426,21 @@ myFunction=(e)=>{
 }
 
 
-document.addEventListener("visibilitychange", function() {
-  if (document.visibilityState === 'visible') {
-      document.write("<center><b>This Programme Doesn't Exists, Turning of The Window...</b></center>")
-      setTimeout(() => {
-          location.replace("https://www.google.co.in/");
-        }, 2500);
-      } else{
-        document.title = "Page Doesn't exists!!";
-        const audio = document.getElementById("audio");
-        function play() {
-          audio.muted = true;
-          audio.play();
-          audio.muted = false;
-          audio.play();
-        }
-        play();
-      }
-});
+// document.addEventListener("visibilitychange", function() {
+//   if (document.visibilityState === 'visible') {
+//       document.write("<center><b>This Programme Doesn't Exists, Turning of The Window...</b></center>")
+//       setTimeout(() => {
+//           location.replace("https://www.google.co.in/");
+//         }, 2500);
+//       } else{
+//         document.title = "Page Doesn't exists!!";
+//         const audio = document.getElementById("audio");
+//         function play() {
+//           audio.muted = true;
+//           audio.play();
+//           audio.muted = false;
+//           audio.play();
+//         }
+//         play();
+//       }
+// });

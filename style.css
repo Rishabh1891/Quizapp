@@ -68,8 +68,8 @@ body{
     text-align: center;
     font-style: italic;
     width: 100%;
-
 }
+
 .perinfo{
     display: flex;
     align-items: flex-start;
@@ -218,12 +218,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     .phdo{
         position: relative;
         top: 40%;
+        left: 1px;
         height: 40em;
     }
  
     .toppers{
         position: relative;
         top: 0;
+        width: 100%;
     }
   }
 
@@ -680,8 +682,12 @@ footer button.show{
     background: #007bff;
 }
 @media only screen and (max-width: 600px){
+    html{
+        height: 80em;
+    }
     body{
         width: 100vw;
+        height: 100vh;
     }
     .info_box{
         width: 100%;
