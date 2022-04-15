@@ -11,7 +11,7 @@ body{
     background: #fff url("https://images.unsplash.com/photo-1635070041409-e63e783ce3c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWF0aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*initiating welc pattern*/
@@ -109,6 +109,125 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     opacity: 1;
     height: 130px;
 }
+/*position holders*/
+.bggo{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    box-shadow: 0 10px 20px rgba(255, 239, 12, 0.968);
+  
+  }
+  .bgsi{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #adadad 0%, #626261 8%, #818181 30%, #b2b2b2 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #d8d8d6 8%, #868686 25%, #aeaeae 62.5%, #aaa9a8 100%);
+    box-shadow: 0 10px 20px rgba(116, 116, 116, 0.968);
+  
+  }
+  .bgbz{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #f94343 0%, #fb4747 8%, #ff5454 30%, #f53838 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #fe3c3c 0%, #ff3939 8%, #fd3333 25%, #f53939 62.5%, #f94b4b 100%);
+    box-shadow: 0 10px 20px rgba(255, 54, 54, 0.968);
+  }
+  .phdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 20rem;
+    flex-wrap: wrap;
+    background: #000;
+  }
+  .toppers{
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: yellow;
+    padding:0 25px;
+  }
+  .wnhvr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin-left: 20px;
+    position: relative;
+    border: 1px solid #000;
+    animation: swing 2s ease-in-out infinite alternate;
+    transform-origin: center -80px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+  }
+  
+  .rnk{
+    position: relative;
+    bottom: 2em;
+    background: royalblue;
+    color: #fff;
+    font-size: 1rem;
+    font-family: tahoma;
+    border-radius: 5px;
+    padding: 0 15px;
+    z-index: -1;
+  }
+  ul{
+    position: relative;
+    left: 0;
+    color: #f1f1f1;
+  }
+  ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    font-weight: 600;
+  }
+  .topr{
+    max-width: 50%;
+    height: 150px;
+    border-radius: 60px;
+  }
+  
+  @keyframes swing {
+    from { transform: rotate(-6deg); }
+  
+    to { transform: rotate(6deg); }
+  }
+  
+  
+  .wnhvr::before,
+  .wnhvr::after{
+    content: "";
+    position: absolute;
+    left: 50%; top: -15%;
+    transform: translateX(-50%);
+    border: 1px solid #272727;
+  }
+  
+  .wnhvr::before {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background-color: #ff7a00;
+  box-shadow: 0 0 10px rgba(255, 122, 0, 0.8);
+  }
+  
+  .wnhvr::after {
+  width: 8px; height: 80px;
+  border-radius: 10px;
+  z-index: -1;
+  }
+  @media only screen and (max-width: 600px){
+    .phdo{
+        position: relative;
+        top: 20em;
+        height: 40em;
+    }
+    .wnhvr{
+        margin-top: 20px;
+    }
+    .toppers{
+        position: relative;
+        top: 0;
+    }
+  }
+
+/*got the upper hand*/
 
 /*it ends here*/
 #anslist{

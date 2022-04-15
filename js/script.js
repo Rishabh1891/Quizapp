@@ -344,7 +344,7 @@ function onTimesUp() {
   play();
   clearInterval(timerInterval);
   setTimeout(() => {
-    location.replace("https://www.google.co.in/");    
+    location.replace("https://www.google.co.in/");
   }, 6000);
  
 }
