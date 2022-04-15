@@ -27,6 +27,7 @@ body{
     opacity: 0;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 .outer{
     color: rgb(255, 35, 35);
@@ -132,6 +133,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     justify-content: center;
     align-items: center;
     position: relative;
+    top: 50%;
     height: 20rem;
     flex-wrap: wrap;
     background: #000;
@@ -215,12 +217,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   @media only screen and (max-width: 600px){
     .phdo{
         position: relative;
-        top: 20em;
+        top: 40%;
         height: 40em;
     }
-    .wnhvr{
-        margin-top: 20px;
-    }
+ 
     .toppers{
         position: relative;
         top: 0;

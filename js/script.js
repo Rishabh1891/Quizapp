@@ -345,7 +345,7 @@ function onTimesUp() {
   clearInterval(timerInterval);
   setTimeout(() => {
     location.replace("https://www.google.co.in/");
-  }, 6000);
+  }, 6200);
  
 }
 
@@ -423,20 +423,20 @@ myFunction=(e)=>{
 
 
 document.addEventListener("visibilitychange", function() {
-      if (document.visibilityState === 'visible') {
-          document.write("This Programme Doesn't Exists, Turning of The Window...")
-          setTimeout(() => {
-              location.replace("https://www.google.co.in/");
-            }, 2500);
-          } else{
-            document.title = "Page Doesn't exists!!";
-            const audio = document.getElementById("audio");
-            function play() {
-              audio.muted = true;
-              audio.play();
-              audio.muted = false;
-              audio.play();
-            }
-            play();
-          }
-  });
+  if (document.visibilityState === 'visible') {
+      document.write("<center><b>This Programme Doesn't Exists, Turning of The Window...</b></center>")
+      setTimeout(() => {
+          location.replace("https://www.google.co.in/");
+        }, 2500);
+      } else{
+        document.title = "Page Doesn't exists!!";
+        const audio = document.getElementById("audio");
+        function play() {
+          audio.muted = true;
+          audio.play();
+          audio.muted = false;
+          audio.play();
+        }
+        play();
+      }
+});
