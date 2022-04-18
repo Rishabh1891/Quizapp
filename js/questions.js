@@ -2,57 +2,57 @@ var opt = document.querySelector(".option_list");
 let questions = [
     {
     numb: 1,
-    question: "Who is the Father of Computer?",
-    answer: "Dr. Charles Babbage",
+    question: "The ignition of Candle denotes the conversion into:",
+    answer: "Both 1 & 2",
     options: [
-      "Dr. Henry Williams",
-      "Dr. Charles Babbage",
-      "Dr. Sminton Hegons",
-      "Dr. Martin D. Mello"
+      "Heat Energy",
+      "Light Energy",
+      "Both 1 & 2",
+      "None of the above"
     ]
   },
     {
     numb: 2,
-    question: "Which one is the True Avogadro Number?",
-    answer: "6.02214076 × 10(23)",
+    question: "Which one is responsible for water transportation in plants?",
+    answer: "Xylem",
     options: [
-      "6.02214076 × 10(23)",
-      "6.02356076 × 10(23)",
-      "6.02674076 × 10(23)",
-      "6.02964176 × 10(23)"
+      "Xylem",
+      "Phelsem",
+      "Stomata",
+      "Roots"
     ]
   },
     {
     numb: 3,
-    question: "Who is Well known as Chhatrpati?",
-    answer: "Maharaja Shivaji",
+    question: "Name the Largest glant in human body?",
+    answer: "Liver",
     options: [
-      "Maharaja Sahu Raam",
-      "Chakrvarti Chandragupt",
-      "Maharaja Shivaji",
-      "Maharana Pratap"
+      "Heart",
+      "Lungs",
+      "Brain",
+      "Liver"
     ]
   },
     {
     numb: 4,
-    question: "What is the Full Form Of NATO?",
-    answer: "North Atlantic Treaty Organization",
+    question: "Which gas is used in fire extinguisher?",
+    answer: "Carbon dioxide",
     options: [
-      "Northen America Trust Officials",
-      "Not Act of Trust Office",
-      "North Atlantic Treaty Organization",
-      "Nation Acquire Trust Organization"
+      "Carbon monoxide",
+      "Carbon meta-cobalt",
+      "Carbon dioxide",
+      "Carbon antifire gas"
     ]
   },
     {
     numb: 5,
-    question: "Full Form of PSLV is:",
-    answer: "Polar Satellite Launch Vehicle",
+    question: "Which vitamins plays important role in blood cotting?",
+    answer: "Vitamin C",
     options: [
-      "Particular Space Lattitude Vehicle",
-      "Pressured Satellite Lengthy Vehicle",
-      "Polar Satellite Launch Vehicle",
-      "Pickup Space & Land Vector"
+      "Vitamin D",
+      "Vitamin C",
+      "vitamin A",
+      "vitamin E"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
@@ -60,57 +60,57 @@ let questions = [
 
     {
     numb: 6,
-    question: "Which Division of the Indian Para SF is known as 'Scorpion'?",
-    answer: "10 Para SF",
+    question: "How many chambers are there in our heart:",
+    answer: "2+2",
     options: [
-      "9 Para SF",
-      "10 Para SF",
-      "11 Para SF",
-      "12 Para SF"
+      "1+1",
+      "3+2",
+      "2+2",
+      "2+1"
     ]
   },
     {
     numb: 7,
-    question: "How many Elements are there in periodic Table?",
-    answer: "118",
+    question: "How many electrons are there in outermost shell of carbon?",
+    answer: "4",
     options: [
-      "116",
-      "117",
-      "118",
-      "120"
+      "2",
+      "3",
+      "4",
+      "5"
     ]
   },
     {
     numb: 8,
-    question: "Which one doesn't belong to Allies Powers (WW2):",
-    answer: "Greenland",
+    question: "Which metal is both metalleable and ductile?",
+    answer: "Gold",
     options: [
-      "Greenland",
-      "Great Britain",
-      "The United States",
-      "Soviet Union"
+      "Gold",
+      "Copper",
+      "zinc",
+      "None of the above"
     ]
   },
     {
     numb: 9,
-    question: "Which Song has proclaimed as Suicidal song?",
-    answer: "Gloomy Sunday",
+    question: "The human eye forms the image of an object of its?",
+    answer: "Retina",
     options: [
-      "Gloomy Sunday",
-      "Memories",
-      "Bring me Home",
-      "Give me some sunshine"
+      "Front lense",
+      "Retina",
+      "Cornea",
+      "Pupil"
     ]
   },
     {
     numb: 10,
-    question: "Which one of the followings doesn't belong to Indian Air Force Fighter jet:",
-    answer: "Boeing-AH 64",
+    question: "The Reaction & Gas activity over sun is:",
+    answer: "Nuclear Fusion",
     options: [
-      "Mig-21",
-      "Boeing-AH 64",
-      "Mirage-2000",
-      "Haltejas MK2"
+      "Nuclear Fission",
+      "Nuclear Fusion",
+      "Both 1 & 2",
+      "None of the Above"
     ]
   },
 ];

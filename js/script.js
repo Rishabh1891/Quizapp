@@ -43,7 +43,7 @@ openPara=()=>{
     break;
   case "00000000":
    document.getElementById("pernam").innerHTML = "Anjali Kaushik";
-   img.src = "https://i.ibb.co/1ssH5R0/anjali.jpg"
+   img.src = "https://i.ibb.co/3zXmhKg/1650261477767.jpg";
     break;
   case "11111111":
    document.getElementById("pernam").innerHTML = "Abhishek Nigga";
@@ -225,18 +225,20 @@ function showResult(){
     info_box.classList.remove("activeInfo"); 
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.add("activeResult");
+    document.getElementById("qul").src = document.getElementById('perimg').src;
+    const taker = document.getElementById("pernam").innerHTML;
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 5){ // if user scored more than 3
-        let scoreTag = '<span> please take screenshot of this page and congrats! 🎉,<p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;  
+        let scoreTag = '<span>please take screenshot of this and congrats! 🎉,<p>'+ userScore +'</p> out <p>'+ questions.length +'</p></span>';
+        scoreText.innerHTML = 'Dear'+ " " + taker + scoreTag;
     }
     else if(userScore > 3){ // if user scored more than 1
-        let scoreTag = '<span> please take screenshot of this page and its okay 😎,<p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
+        let scoreTag = '<span> please take screenshot of this and its okay 😎,<p>'+ userScore +'</p> out <p>'+ questions.length +'</p></span>';
+        scoreText.innerHTML = 'Dear'+ " " + taker + scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>and Poor Stupid you 😐,<p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
+        let scoreTag = '<span>and Poor Stupid you 😐,<p>'+ userScore +'</p> out <p>'+ questions.length +'</p></span>';
+        scoreText.innerHTML = 'Dear'+ " " + taker + scoreTag;
     }
 }
 
