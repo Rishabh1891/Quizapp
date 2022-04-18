@@ -47,10 +47,10 @@ let questions = [
     {
     numb: 5,
     question: "Which vitamins plays important role in blood cotting?",
-    answer: "Vitamin C",
+    answer: "Vitamin K",
     options: [
       "Vitamin D",
-      "Vitamin C",
+      "Vitamin K",
       "vitamin A",
       "vitamin E"
     ]
